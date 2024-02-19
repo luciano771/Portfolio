@@ -62,14 +62,12 @@ a:focus {
 
 #loader {
     position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #ffffff;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity .3s ease-out, visibility 0s linear .3s;
@@ -77,6 +75,7 @@ a:focus {
     transition: opacity .3s ease-out, visibility 0s linear .3s;
     z-index: 999;
 }
+
 
 #loader.show {
     -webkit-transition: opacity .6s ease-out, visibility 0s linear 0s;
