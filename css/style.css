@@ -237,6 +237,13 @@ a:focus {
         box-shadow: none;
     }
 }
+ 
+@media (max-width: 768px) {
+    .navbar .navbar-brand img {
+        content: url('../img/image.png');
+    }
+}
+
 
 
 /*******************************/
@@ -528,7 +535,7 @@ a:focus {
 
 @media (max-width: 321px) {
     .about{ 
-        margin-bottom: 400px;
+        margin-bottom: 450px;
     } 
 }
 
@@ -725,6 +732,13 @@ a:focus {
     .experience .timeline .timeline-item.right .timeline-text {
         border-right: none;
         border-left: 5px solid #dddddd;
+    }
+}
+
+@media (max-width: 480px) {
+    .experience
+    {
+        margin-bottom: 300px;
     }
 }
 
@@ -957,6 +971,12 @@ a:focus {
     } 
 }
 
+@media (max-width: 480px) {
+    .portfolio
+    {
+        margin-bottom: 500px;
+    }
+}
 
 /*******************************/
 /********* Banner CSS **********/
@@ -1098,6 +1118,8 @@ a:focus {
         padding: 90px 0;
     }
 }
+
+
  
 /*******************************/
 /********* Footer CSS **********/
@@ -1241,5 +1263,7 @@ a:focus {
     }
      
 }
+
+
 
  
