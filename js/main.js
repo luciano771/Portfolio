@@ -31,7 +31,6 @@
     
     
     // Sticky Navbar
- 
     var originalImgSrc = $('.navbar .navbar-brand img').attr('src');
 
     $(window).scroll(function () {
