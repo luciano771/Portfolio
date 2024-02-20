@@ -244,6 +244,9 @@ a:focus {
     }
 }
 
+ 
+
+
 
 
 /*******************************/
@@ -385,7 +388,21 @@ a:focus {
     }
 }
 
+@media (max-width: 768px) {
+
+    .hero-content
+    {
+        margin-bottom: 250px;
+    }
+}
+
 @media (max-width: 575.98px) {
+
+    .hero-content
+    {
+        margin-bottom: 250px;
+    }
+
     .hero .hero-text p {
         font-size: 16px;
     }
@@ -529,7 +546,7 @@ a:focus {
 
 @media (max-width: 426px) {
     .about{ 
-        margin-bottom: 200px;
+        margin-bottom: 50px;
     } 
 }
 
@@ -839,6 +856,12 @@ a:focus {
     } 
 }
 
+@media (max-width: 500px) {
+    .service{ 
+        margin-bottom: 300px;
+    } 
+}
+
 @media (max-width: 425px) {
     .service{ 
         margin-bottom: 300px;
@@ -965,18 +988,25 @@ a:focus {
     border-color: #2d2d2bf2;
 }
 
-@media (max-width: 426px) {
-    .portfolio{ 
-        margin-bottom: 200px;
-    } 
+@media (max-width: 768px) {
+    .portfolio
+    {
+        margin-bottom: 500px;
+    }
 }
-
 @media (max-width: 480px) {
     .portfolio
     {
-        margin-bottom: 200px;
+        margin-bottom: 400px;
     }
 }
+@media (max-width: 426px) {
+    .portfolio{ 
+        margin-bottom: 300px;
+    } 
+}
+
+ 
 
 /*******************************/
 /********* Banner CSS **********/
