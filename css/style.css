@@ -529,13 +529,13 @@ a:focus {
 
 @media (max-width: 426px) {
     .about{ 
-        margin-bottom: 230px;
+        margin-bottom: 200px;
     } 
 }
 
 @media (max-width: 321px) {
     .about{ 
-        margin-bottom: 450px;
+        margin-bottom: 350px;
     } 
 }
 
@@ -745,21 +745,21 @@ a:focus {
 @media (max-width: 425px) {
     .experience
     {
-        margin-bottom: 500px;
+        margin-bottom: 400px;
     }
 }
 
 @media (max-width: 375px) {
     .experience
     {
-        margin-bottom: 500px;
+        margin-bottom: 300px;
     }
 }
 
 @media (max-width: 320px) {
     .experience
     {
-        margin-bottom: 1000px;
+        margin-bottom: 800px;
     }
 }
 
@@ -967,14 +967,14 @@ a:focus {
 
 @media (max-width: 426px) {
     .portfolio{ 
-        margin-bottom: 300px;
+        margin-bottom: 200px;
     } 
 }
 
 @media (max-width: 480px) {
     .portfolio
     {
-        margin-bottom: 500px;
+        margin-bottom: 200px;
     }
 }
 
