@@ -508,12 +508,29 @@ a:focus {
     margin-top: 15px;
 }
 
+@media (max-width: 426px) {
+    .about{ 
+        margin-bottom: 230px;
+    } 
+}
+
 @media (max-width: 991.98px) {
     .about .about-content {
         padding: 45px 15px 0 15px;
     }
 }
 
+@media (max-width: 426px) {
+    .about{ 
+        margin-bottom: 230px;
+    } 
+}
+
+@media (max-width: 321px) {
+    .about{ 
+        margin-bottom: 400px;
+    } 
+}
 
 /*******************************/
 /******* Experience CSS ********/
@@ -581,7 +598,7 @@ a:focus {
   height: 0;
   top: 46px;
   right: 10px;
-  z-index: 1;
+
   border: 10px solid;
   border-color: transparent transparent transparent #dddddd;
 }
@@ -644,7 +661,27 @@ a:focus {
     font-size: 16px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 1440px) {
+    .experience
+    {
+        margin-bottom: 250px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .experience
+    {
+        margin-bottom: 250px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .experience
+    {
+        margin-bottom: 210px;
+    }
     .experience .timeline::after {
         left: 8px;
     }
@@ -691,11 +728,32 @@ a:focus {
     }
 }
 
+@media (max-width: 425px) {
+    .experience
+    {
+        margin-bottom: 500px;
+    }
+}
+
+@media (max-width: 375px) {
+    .experience
+    {
+        margin-bottom: 500px;
+    }
+}
+
+@media (max-width: 320px) {
+    .experience
+    {
+        margin-bottom: 1000px;
+    }
+}
 
 /*******************************/
 /********* Service CSS *********/
 /*******************************/
 .service {
+    height: 100vh;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -760,6 +818,19 @@ a:focus {
 .service .service-item:hover .service-text p {
     color: #ffffff;
 }
+
+@media (max-width: 769px) {
+    .service{ 
+        margin-bottom: 300px;
+    } 
+}
+
+@media (max-width: 425px) {
+    .service{ 
+        margin-bottom: 300px;
+    } 
+}
+
 
 @media (max-width: 575.98px) {
     .service .service-text h3 {
@@ -880,6 +951,12 @@ a:focus {
     border-color: #2d2d2bf2;
 }
 
+@media (max-width: 426px) {
+    .portfolio{ 
+        margin-bottom: 300px;
+    } 
+}
+
 
 /*******************************/
 /********* Banner CSS **********/
@@ -890,6 +967,9 @@ a:focus {
     margin: 45px 0;
     padding: 90px 0;
     background: #2d2d2bf2;
+    height: auto; 
+ 
+    
 }
 
 .banner .container {
@@ -1062,7 +1142,6 @@ a:focus {
     color: #ffffff;
     font-size: 22px;
     font-weight: 600;
-    line-height: 20px;
     padding: 0 15px;
     border-right: 1px solid #ffffff;
 }
@@ -1131,6 +1210,17 @@ a:focus {
     color: #414141;
 }
 
+@media (max-width: 768px) {
+    .footer .footer-menu p {
+         
+        border-right: none;
+    }
+    
+    .footer .footer-menu  {
+        display: grid;
+    }
+}
+
 @media (max-width: 575.98px) {
     .footer .footer-info h2 {
         margin-bottom: 20px;
@@ -1147,5 +1237,9 @@ a:focus {
         font-size: 16px;
         line-height: 16px;
         padding: 0 5px;
+       
     }
+     
 }
+
+ 
