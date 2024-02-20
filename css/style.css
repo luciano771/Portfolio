@@ -563,6 +563,7 @@ a:focus {
     position: relative;
     padding: 45px 0 15px 0;
     height: 100vh;
+    margin-bottom: 200px;
 }
 
 .experience .timeline {
