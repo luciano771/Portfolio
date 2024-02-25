@@ -888,6 +888,7 @@ a:focus {
 .portfolio {
     position: relative;
     padding: 45px 0 15px 0;
+    width: 100%;
     height: 100vh;
 }
 
@@ -953,10 +954,10 @@ a:focus {
 
 .portfolio .portfolio-text {
     position: relative;
-    height: 60px;
+    height: 100px;
     width: calc(100% - 30px);
     margin: -30px 15px 30px 15px;
-    display: flex;
+    display: grid;
     align-items: center;
     background: #ffffff;
     box-shadow: 0 0 15px rgba(0, 0, 0, .12);
@@ -1009,75 +1010,16 @@ a:focus {
 
  
 
-/*******************************/
-/********* Banner CSS **********/
-/*******************************/
-.banner {
-    position: relative;
-    width: 100%;
-    margin: 45px 0;
-    padding: 90px 0;
-    background: #2d2d2bf2;
-    height: auto; 
  
-    
-}
-
-.banner .container {
-    max-width: 850px;
-    text-align: center;
-}
-
-.banner .section-header {
-    margin-bottom: 20px;
-}
-
-.banner .section-header p {
-    color: #c4bfbf;
-    background: transparent;
-}
-
-.banner .section-header p::after {
-    display: none;
-}
-
-.banner .section-header h2 {
-    color: #ffffff;
-}
-
-.banner .section-header h2 span {
-    color: #918c8c;
-    font-size: 50px;
-}
-
-.banner .banner-text p {
-    font-size: 18px;
-    color: #ffffff;
-}
-
-.banner .banner-text .btn {
-    margin-top: 15px;
-    color: #2d2d2bf2;
-    background: #ffffff;
-    box-shadow: inset 0 0 0 50px #ffffff;
-}
-
-.banner .banner-text .btn:hover {
-    color: #ffffff;
-    background: transparent;
-    box-shadow: inset 0 0 0 0 #ffffff;
-    border-color: #ffffff;
-}
-
  
 /*******************************/
 /********* Contact CSS *********/
 /*******************************/
 .contact {
     position: relative;
+    padding: 200px 0 100px 0;
     width: 100%;
-    margin: 45px 0;
- 
+    height: 100vh;
 }
  
 
