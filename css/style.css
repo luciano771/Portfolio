@@ -932,6 +932,7 @@ a:focus {
 .portfolio .portfolio-wrap {
     position: relative;
     width: 100%;
+   
 }
 
 .portfolio .portfolio-img {
@@ -954,7 +955,8 @@ a:focus {
 
 .portfolio .portfolio-text {
     position: relative;
-    height: 100px;
+    height: 100%;
+    padding: 10px;
     width: calc(100% - 30px);
     margin: -30px 15px 30px 15px;
     display: grid;
@@ -1099,7 +1101,7 @@ a:focus {
 /*******************************/
 .footer {
     position: relative;
-    margin-top: 45px;
+    margin-top: 200px;
     background: #2d2d2bf2;
 }
 
